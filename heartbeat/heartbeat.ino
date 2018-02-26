@@ -7,8 +7,8 @@ void setup(){
 void loop(){
  
   delay(1000);
-  int n = millis(); 
-  int time = n / 1000; 
+  long n = millis(); 
+  long time = n / 1000; 
   digitalWrite(13, HIGH);
   delay(10);
    digitalWrite(13, LOW);
